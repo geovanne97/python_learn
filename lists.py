@@ -42,3 +42,6 @@ print(out)#out:[1,4,9,16]
 #another way to do that
 out = [num**2 for num in lone]
 print(out)#out:[1,4,9,16]
+
+#pra saber se um elemento se encontra numa lista
+print('x' in [1,2,3])#this will return False
